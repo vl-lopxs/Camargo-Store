@@ -5,7 +5,7 @@
          margin: 10;
          font-family: 'Roboto Condensed', sans-serif;
          box-sizing: border-box;
-         background-color: rgb(39, 36, 36);
+         background-color: rgb(65, 56, 56);
          background-image: -o-linear-gradient(25%);
      
      }
@@ -17,7 +17,9 @@
      #menu ul {
         max-width: 8000px;
         list-style: none;
-        padding: 0;
+        padding: 10;
+        padding-right: 10px;
+        padding-left: 40px;
      }
     
      #menu ul li {
@@ -33,15 +35,11 @@
         text-decoration: none;
         transition: background .4s;
         font-size: 18px;
+        justify-content: center;
      }
     
      #menu ul li a:hover {
-        background-color: rgb(87, 24, 233);
-     }
-    
-     #menu ul li:last-child a {
-        float: right;
-        background-color: rgb(87, 24, 233);
+        background-color: rgb(20, 223, 223);
      }
  
      .imgLogo {
@@ -108,15 +106,15 @@
      }
      
      main.cards section.card.contact button {
-         background: linear-gradient(to right, #9F66FF, #DFCBFF);
+         background: linear-gradient(to right, #01edbd, #009ffb);
      }
      
      main.cards section.card.shop button {
-         background: linear-gradient(to right, #3F8AFF, #BBDEFF);
+         background: linear-gradient(to right, #01edbd, #009ffb);
      }
      
      main.cards section.card.about button {
-         background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+         background: linear-gradient(to right, #01edbd, #009ffb);
      }
      
      main.cards section.card.contact button {
@@ -134,24 +132,29 @@
      main.cards section.card:last-child {
          margin-bottom: 0;
      }
- 
+
+     ul#uniforme p {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+     }
      h1 {
          font-family:'Roboto Condensed', sans-serif;
          font-size: 30pt; 
-         color: rgb(122, 76, 231);
+         color: rgb(20, 232, 240);
      }
  
      h2 {
          font-family: 'Roboto Condensed', sans-serif;
          font-size: 20pt;
-         color: #A5D4DC;
+         color: #ffffff;
      }
  
      ul {
          font-family:'Roboto Condensed', sans-serif;
          font-size: 15pt;
          align-items: center;
-         color: #A5D4DC;
+         color: rgb(20, 223, 223);
      }
  
      th {
